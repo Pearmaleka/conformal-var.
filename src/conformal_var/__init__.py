@@ -9,11 +9,15 @@ from conformal_var.backtests import (
     kupiec,
     pinball_loss,
 )
+from conformal_var.calibration import METHODS, Calibrated, calibrate
 
 __all__ = [
+    "METHODS",
     "BacktestResult",
+    "Calibrated",
     "backtest",
     "basel_zones",
+    "calibrate",
     "christoffersen",
     "dynamic_quantile",
     "kupiec",
